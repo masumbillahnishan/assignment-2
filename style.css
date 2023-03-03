@@ -1,0 +1,434 @@
+
+*{
+  font-family: 'Inconsolata', monospace;
+font-family: 'Tilt Warp', cursive;
+
+
+}
+
+
+
+body{
+    width: 1920px;
+
+}
+.header{
+
+height: 1322px;
+
+background: rgba(255, 144, 14, 0.1);
+}
+
+
+
+.nav{
+
+    margin-left: 240px;
+/* margin-right: 240px; */
+    display: flex;
+    justify-content:space-between;
+}
+
+/*G3 architect*/
+.nav h1{
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+text-align: center;
+/* margin-left: 240px;
+margin-right: 240px; */
+
+color: #131313;
+
+}
+.nav div{
+
+width: 477px;
+height: 26px;
+
+   font-weight: 500;
+font-size :18px;
+Line-height:26px;
+text-align: end;
+    display: flex;
+
+    margin-left: 240px;
+margin-right: 240px;
+}
+.nav h5{
+    margin-top: 50px;
+
+    width: 900px;
+ 
+    margin-left: 10px;
+
+}
+
+.header-text-align{
+    text-align: center;
+}
+
+
+
+
+
+.box{
+  
+    width: 1440px;
+    height: 700px;
+margin-left: 240px;
+margin-top: 50px;
+
+background: url(images/banner.png);
+border-radius: 8px;
+}
+.header-h1{
+   
+/* width: 862px;
+height: 325px; */
+
+text-align: center;
+
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+
+color: #131313;
+}
+
+.header-p{
+
+/* width: 868px;
+height: 52px; */
+
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+text-align: center;
+
+
+
+color: #727272;
+}
+.header-button{
+ 
+width: 180px;
+height: 64px;
+color: white;
+
+
+border: none;
+background: #FF900E;
+border-radius: 8px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+}
+
+.first-section{
+    margin-top: 85px;
+    margin-left: 240px;
+ 
+    display: flex;
+    height: 710px;
+    width: 1440px;
+    /* border: 1px solid red; */
+   
+}
+.team{
+   
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    left: 301px;
+    margin-left: 61px;
+    
+}
+.team div{
+   
+width: 342px;
+height: 342px;
+}
+.team-1{
+    background-image: url(images/team1.png);
+}
+.team-2{
+    background-image: url(images/team2.png);
+}
+.team-3{
+    background-image: url(images/team3.png);
+}
+.team-4{
+    background-image: url(images/team4.png);
+}
+
+
+.black-color{
+    color: #000000;
+}
+.orange-color{
+    color: orange;
+}
+
+.first-section-feature{
+    padding-top: 200px;
+align-content: center;
+    margin-left: 105px;
+margin-right: 29px;
+color: #727272;
+}
+
+.first-section-feature h2 {
+    font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 53px;
+}
+.first-section-feature p {
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.main-fisrt-button{
+ position: absolute;
+width: 180px;
+height: 64px;
+border: none;
+color: white;
+background: #FF900E;
+border-radius: 8px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+}
+
+.second-section{
+width: 1440px;
+height: 1059px;
+    /* border: 1px solid red; */
+ margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    /* position: absolute; */
+    display: flex;
+    
+}
+
+.feature-box1{
+    /* osition: absolute; */
+width: 586px;
+height: 131px;
+line-height: 20px;
+/* left: 240px;
+top: 2522px; */
+display: grid;
+grid-template-columns: repeat(1,1fr);
+/* gap: 20px; */
+padding: 30px 30px 30px 42px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+
+
+.second-box2{
+
+/* position: absolute; */
+width: 708px;
+height: 982px;
+/* left: 972px;
+top: 45px; */
+
+background: url(images/architect.png);
+border-radius: 8px;
+
+}
+.rectangle{
+    margin-top: 820px;
+width: 342px;
+height: 200px;
+position: absolute;
+left: 922px;
+text-align: center;
+background: #FF900E;
+border-radius: 8px;
+}
+.rectangle h1{
+
+  font-size: 65px;
+
+color: white;
+}
+.rectangle p{
+  font-size: 25px;
+
+  color: white;
+}
+.p{
+    line-height: 3px;
+}
+
+
+.feature-h p{
+    width: 5px;
+height:106px;
+margin-top: 40px;
+margin-right: 10px;
+
+background: #FF900E;
+}
+.feature-h h1{
+ font-size: 45px;
+}
+.feature-h {
+display: flex;
+}
+
+.feature-box1 h3{
+font-size: 20px;
+}
+
+.feature-p{
+    width: 586px;
+    margin-right: 200px;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 26px; */
+    color: #727272;
+}
+
+
+.text{
+    margin-top: 130px;
+    margin-left: 240px;
+}
+
+.text h1{
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+font-size: 45px;
+}
+.text p{
+    width: 542px;
+    height: 52px;
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    
+    /* Dark 03 */
+    
+    color: #727272;
+}
+
+
+
+.achivment{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content:space-around;
+    margin: 0 240px;
+}
+
+.achivment-box{
+
+    /* box-sizing: border-box; */
+    width: 241.83px;
+height: 241.83px;
+/* padding-top: 60px; */
+margin-top: 60px;
+text-align: center;
+line-height: 10px;
+border: 2px solid #FF900E;
+border-radius: 8px;
+transition: transform 1s ease-out ;
+}
+.achivment-box:hover{
+    /* box-sizing: border-box; */
+   
+    transform: rotate(-40deg);
+    transform-origin:top right ;
+}
+
+.achivment-box h1{
+    font-size: 45px;
+}
+.achivment-box p{
+    font-size: 20px;
+    color: #727272;
+}
+.achivment-box img{
+   margin-top: 45px;
+}
+
+
+
+.sponsors-text{
+    margin-top: 180px;
+ text-align: center;
+}
+.sponsors-text h1{
+    /* width: 327px;
+    height: 53px; */
+/* text-align: end; */
+    font-weight: 700;
+    font-size: 45px;
+   
+    
+    color: #131313;
+    
+}
+
+.sponsors-text p{
+    font-weight: 400;
+font-size: 16px;
+}
+
+
+.sponsors{
+    
+    display: flex;
+    justify-content: space-between;
+    margin:52px 240px 0 240px;
+}
+.sponsors img{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      
+}
+
+.copyright{
+    text-align: center;
+    width: 1440px;
+height: 100px;
+margin:130px 240px 261px 240px;
+background: #FFF4E7;
+border-radius: 8px;
+}
+
+.copyright p{
+  
+padding-top: 39px;
+font-weight: 400;
+font-size: 20px;
+
+
+
+color: #424242;
+}
